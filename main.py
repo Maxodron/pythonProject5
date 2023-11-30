@@ -1,6 +1,6 @@
 import random
 
-n = input('Введите лоаптол камней: ')
+n = input('Введите количество камней: ')
 try:
     n = int(n)
     if n in range(4, 31):
